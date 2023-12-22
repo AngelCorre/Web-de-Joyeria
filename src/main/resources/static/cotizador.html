@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Joyeria S&G</title>
+    <link rel="shortcut icon" href="img/icono.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/cotizador.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Inicio</a>
+        </nav>
+        <section class="textos-header">
+            <h1>Cotizador</h1>
+            <h2>¡Para que compres la mejor calidad!</h2>
+        </section>
+        <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+                style="height: 100%; width: 100%;">
+                <path d="M0.00,49.98 C150.00,150.00 349.20,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                    style="stroke: none; fill: #fff;"></path>
+            </svg></div>
+    </header>
+    <main>
+        <div class="parent">
+            <div class="contenido__productos1">
+                <div class="carru" id="carru1">
+                    <ul>
+                        <li>
+                            <img src="img/carru/1.png" alt="Gestión de Proyectos">
+                        </li>
+                        <li>
+                            <img src="img/carru/2.png" alt="Normatividad">
+                        </li>
+                        <li>
+                            <img src="img/carru/3.png" alt="Experiencia de Usuario">
+                        </li>
+                        <li>
+                            <img src="img/carru/4.png" alt="Experiencia de Usuario">
+                        </li>
+                    </ul>
+                </div>
+                <div class="contenido__productos__N/P">
+                    <h3>Broquel $65</h3>
+                    <div class="input-container">
+                        <div>
+                            <label id="labelBroquelCorazon">
+                                <input type="radio" name="imagenSelector1" value="0" onchange="cambiarImagen('carru1')">
+                                Corazón
+                            </label>
+                        </div>
+                        <div>
+                            <label id="labelBroquelMikiMouse">
+                                <input type="radio" name="imagenSelector1" value="1" onchange="cambiarImagen('carru1')">
+                                Mickie Mouse
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="input-container">
+                        <div>
+                            <label id="labelBroquelEstrella">
+                                <input type="radio" name="imagenSelector1" value="2" onchange="cambiarImagen('carru1')">
+                                Estrella
+                            </label>
+                        </div>
+                        <div>
+                            <label id="labelBroquelMariposa">
+                                <input type="radio" name="imagenSelector1" value="3" onchange="cambiarImagen('carru1')">
+                                Mariposa
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div> <!--productos -->
+
+            <div class="contenido__productos2">
+                <div class="carru" id="carru2">
+                    <ul>
+                        <li>
+                            <img src="img/carru/5.png" alt="Gestión de Proyectos">
+                        </li>
+                        <li>
+                            <img src="img/carru/6.png" alt="Normatividad">
+                        </li>
+                        <li>
+                            <img src="img/carru/7.png" alt="Experiencia de Usuario">
+                        </li>
+                        <li>
+                            <img src="img/carru/8.png" alt="Experiencia de Usuario">
+                        </li>
+                    </ul>
+                </div>
+                <div class="contenido__productos__N/P">
+                    <h3>Telefono $85</h3>
+                    <div class="input-container">
+                        <div>
+                            <label>
+                                <input type="radio" name="imagenSelector2" value="4" onchange="cambiarImagen('carru2')">
+                                Corazón
+                            </label>
+                        </div>
+                        <div>
+                            <label>
+                                <input type="radio" name="imagenSelector2" value="5" onchange="cambiarImagen('carru2')">
+                                Planeta
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="input-container">
+                        <div>
+                            <label>
+                                <input type="radio" name="imagenSelector2" value="6" onchange="cambiarImagen('carru2')">
+                                Flores
+                            </label>
+                        </div>
+                        <div>
+                            <label>
+                                <input type="radio" name="imagenSelector2" value="7" onchange="cambiarImagen('carru2')">
+                                Minie Mouse
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div> <!--productos -->
+
+            <div class="contenido__productos3">
+                <div class="carru" id="carru3">
+                    <ul>
+                        <li>
+                            <img src="img/carru/9.png" alt="Gestión de Proyectos">
+                        </li>
+                        <li>
+                            <img src="img/carru/10.png" alt="Normatividad">
+                        </li>
+                        <li>
+                            <img src="img/carru/11.png" alt="Experiencia de Usuario">
+                        </li>
+                        <li>
+                            <img src="img/carru/12.png" alt="Experiencia de Usuario">
+                        </li>
+                    </ul>
+                </div>
+                <div class="contenido__productos__N/P">
+                    <h3>Arracadas</h3>
+                    <div class="input-container">
+                        <div>
+                            <label>
+                                <input type="radio" name="imagenSelector3" value="8" onchange="cambiarImagen('carru3')">
+                                Mini
+                            </label><span>$75</span>
+                        </div>
+                        <div>
+                            <label>
+                                <input type="radio" name="imagenSelector3" value="9" onchange="cambiarImagen('carru3')">
+                                Chica
+                            </label><span>$85</span>
+                        </div>
+                    </div>
+
+                    <div class="input-container">
+                        <div>
+                            <label>
+                                <input type="radio" name="imagenSelector3" value="10"
+                                    onchange="cambiarImagen('carru3')">
+                                Mediana
+                            </label><span>$120</span>
+                        </div>
+                        <div>
+                            <label>
+                                <input type="radio" name="imagenSelector3" value="11"
+                                    onchange="cambiarImagen('carru3')">
+                                Grande
+                            </label><span>$150</span>
+                        </div>
+                    </div>
+                </div>
+            </div> <!--productos -->
+
+            <div class="contenido__productos4">
+                <div class="carru" id="carru4">
+                    <ul>
+                        <li>
+                            <img src="img/carru/13.png" alt="Gestión de Proyectos">
+                        </li>
+                        <li>
+                            <img src="img/carru/14.png" alt="Normatividad">
+                        </li>
+                        <li>
+                            <img src="img/carru/15.png" alt="Experiencia de Usuario">
+                        </li>
+                        <li>
+                            <img src="img/carru/16.png" alt="Experiencia de Usuario">
+                        </li>
+                    </ul>
+                </div>
+                <div class="contenido__productos__N/P">
+                    <h3>Anillos $155</h3>
+                    <div class="input-container">
+                        <div>
+                            <label>
+                                <input type="radio" name="imagenSelector4" value="12"
+                                    onchange="cambiarImagen('carru4')">
+                                Tiara
+                            </label>
+                        </div>
+                        <div>
+                            <label>
+                                <input type="radio" name="imagenSelector4" value="13"
+                                    onchange="cambiarImagen('carru4')">
+                                Corazón
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="input-container">
+                        <div>
+                            <label>
+                                <input type="radio" name="imagenSelector4" value="14"
+                                    onchange="cambiarImagen('carru4')">
+                                Infinito
+                            </label>
+                        </div>
+                        <div>
+                            <label>
+                                <input type="radio" name="imagenSelector4" value="15"
+                                    onchange="cambiarImagen('carru4')">
+                                Gemas
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div> <!--productos -->
+        </div><!--Grid -->
+
+        <div class="boton">
+            <button class="learn-more" onclick="generarCotizacion()"> Cotizar </button>
+
+            <button class="learn-more reini"> Realizar nueva cotización
+            </button>
+        </div>
+        <div class="content_recibo">
+            <div class="recibo" id="recibo" style="display: none;">
+                <h2>Resumen de Cotización</h2>
+                <div id="productos-cotizados"></div>
+                <div id="subtotal"></div>
+                <div id="iva"></div>
+                <div id="total"></div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="contenedor-footer">
+            <div class="content-foo">
+                <h4>Teléfono</h4>
+                <p>5516096795</p>
+            </div>
+            <div class="content-foo">
+                <h4>Facebook</h4>
+                <p>Joyeria S&G</p>
+            </div>
+            <div class="content-foo">
+                <h4>Ubicación</h4>
+                <p>Bosques de los Heroes, Tecamac</p>
+            </div>
+        </div>
+        <h2 class="titulo-final">&copy; Joyeria S&G | Shaila Hernandez</h2>
+    </footer>
+
+    <script src="js/carru.js"></script>
+    <script src="js/coti.js"></script>
+</body>
+
+</html>
